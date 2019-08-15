@@ -1,0 +1,38 @@
+
+
+
+h1 { font-size: 72px; color: #252a33; font-weight: 600; text-align: center;}
+
+.home { background: url(../images/dep-1.jpeg) no-repeat; background-size: cover; background-attachment: fixed;}
+
+.container {text-align: center;}
+
+.deportes {  margin: auto;}
+
+.deportes a, .sesion a {    padding: 7px 40px; color:#fff; background-color: #49a962; outline: none; border:1px solid #49a962;
+  transition: all .25s ease-in-out;}
+.deportes a:hover, .sesion a:hover { background-color:#fff; color: #49a962; text-decoration: none;}
+
+.sesion { margin: auto; margin-top: 50px;}
+
+.links {margin-top: 20px;}
+
+.dark {
+    background-color: #252a33;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.copyright {color: white;}
+
+@media (min-width: 992px){
+	.cuerpo { padding: 50px 0; margin-top: 20px;  margin-bottom: 20px;}
+	.sesion { width: 500px;}
+	.deportes { width: 500px; }
+}
+
+@media (max-width: 991px){
+	.cuerpo { padding: 20px 0; }
+	.sesion div { margin: 15px 0;}
+	.deportes div { margin: 15px 0;}
+}
